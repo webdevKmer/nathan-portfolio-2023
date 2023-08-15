@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .container{
     width: 90%;
@@ -13,7 +13,7 @@ body{
 }
 header{
   position: absolute;
-  background-color: lightgoldenrodyellow;
+  background-color: rgba(250, 250, 210, 0.514);
   width: 100%;
 }
 #hero{
@@ -62,4 +62,54 @@ footer{
 }
 .hidden{
   display: none;
+}
+header nav{
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+ }
+header .nav-links-mobile{
+  display: flex;
+  flex-direction: column;
+}
+header a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: .5rem 2rem;
+  background-color: rgba(250, 250, 210, 0.288);
+  /* width: 100%; */
+}
+header a:hover{
+  background-color: rgba(250, 250, 210, 0.74);
+}
+@media screen and (min-width: 650px) {
+  header .nav-links-mobile {
+    display: none;
+  }
+  header a{
+    background-color: transparent;
+    padding: 0;
+  }
+  header a:hover{
+    color: white;
+    background-color: transparent;
+  }
+  header nav{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  header .nav-links{
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  header .nav-links {
+    gap: 2rem;
+  }
 }
