@@ -7,29 +7,56 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <nav></nav>
+  <header>
+    <nav>
+        <a href="#">Logo</a>
+        <div class="nav-links">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">A propos</a>
+          <a href="#activites" class="nav-link">Activites</a>
+          <a href="#gallery" class="nav-link">Ma galérie photos</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-links-mobile hidden">
+          <a href="#" class="nav-link-mobile">Home</a>
+          <a href="#" class="nav-link-mobile">A propos</a>
+          <a href="#" class="nav-link-mobile">Activites</a>
+          <a href="#" class="nav-link-mobile">Ma galérie photos</a>
+          <a href="#" class="nav-link-mobile">Contact</a>
+        </div>
+      </nav>
     </header>
     <section id="hero"></section>
-    <section id="about"></section>
-    <section id="activites"></section>
-    <section id="photos">
-      <article class="photo">
-        <div class="img-container">
-          <img src="./images/nathan_001.jpeg" alt="une photo de nathan">
-        </div>
-        <p class="img-description">Une image vaut bien mille mots.</p>
-      </article>
+  <div class="container">
+    <section id="about">
+      <h2>Nathan Montheu</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi non fugiat voluptatem modi perferendis vel provident reprehenderit corporis aperiam facere ab ipsa, cumque atque molestiae inventore nesciunt maxime. Obcaecati nesciunt possimus placeat temporibus quidem aperiam natus beatae voluptatum deserunt doloribus, ex, iusto accusantium recusandae assumenda sit rem? Dolore, aliquid?</p>
+    </section>
+    <section id="activites">
+      <ul>Loisirs
+
+      </ul>
+      <ul>Jeux
+        <li>Flash Mc Queen</li>
+        <li>Sonic</li>
+      </ul>
+    </section>
+    <section id="gallery">
     </section>
     <section id="contact">
-
+      <h2>Si vous voulez me contacter:</h2>
+      <ul>
+        <li>Youtube</li>
+        <li>Facebook</li>
+        <li>TikTok</li>
+        <li>Whatsapp</li>
+      </ul>
     </section>
+  </div>    
     <footer>
       <h4>Le portfolio de Nathan Montheu</h4> &copy; 
       <small>WebDevKmer - 2023</small>
     </footer>
-  </div>    
 
   <script src="main.js"></script>
 </body>
