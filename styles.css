@@ -8,23 +8,58 @@ body{
 }
 .container{
     width: 90%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
+}
+header{
+  position: absolute;
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+}
+#hero{
+  min-height: 100vh;
+  background-image: url("./images/nathan_008.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#gallery{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  padding: 1rem;
+}
+article{
+  position: relative;
 }
 article .img-container{
     width: 100%;
+    max-width: 300px;
+    max-height: 380px;
     border-radius: 1.5rem;
-    background-color: yellow;
+    margin: 0 auto;
     overflow: hidden;
 }
 article img{
     width: 100%;
     height: auto;
-    
+    object-fit: cover;
 }
-
+article .img-description{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(255, 228, 196, 0.575);
+  width: 100%;
+  padding: .5rem 0rem;
+  font-weight: bold;
+}
 footer{
-    padding: .5rem 0rem;
+    padding: 1rem 2rem;
     text-align: center;
     background-color: lightgoldenrodyellow;
+}
+.hidden{
+  display: none;
 }
