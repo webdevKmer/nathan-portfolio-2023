@@ -59,13 +59,15 @@ header{
   margin-bottom: 2rem;
 }
 article{
+  font-size: 1rem;
   position: relative;
 }
 article .img-container{
   width: 100%;
   max-width: 500px;
   max-height: 380px;
-  border-top-left-radius: 1.5rem;border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -82,6 +84,18 @@ article .img-description{
   width: 100%;
   padding: .5rem 0rem;
   font-weight: bold;
+}
+article .age{
+  position: absolute;
+  top: 3rem;
+  right: 1.5rem;
+  color: rgba(250, 250, 210, 0.687);
+  font-weight: 900;
+  font-size: 8rem;
+}
+article .age small{
+  font-size: 2rem;
+  /* color: black; */
 }
 footer{
     padding: 1rem 2rem;
@@ -138,6 +152,7 @@ section{
 }
 #activites li::before {
   content: "->";
+  margin-right: 1rem;
 }
 #contact ul{
   display: flex;
