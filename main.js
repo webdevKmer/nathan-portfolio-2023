@@ -68,5 +68,5 @@ let galleryHTML = gallery.map(elt => {
         </div>
         <p class="img-description">${elt.description}</p>
       </article>`  
-})
+}).join('')
 galleryElt.innerHTML = galleryHTML
