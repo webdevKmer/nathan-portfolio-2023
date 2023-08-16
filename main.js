@@ -21,22 +21,22 @@ mobileNavMenu.addEventListener('mouseleave',() => {
 const gallery = [
     {
         "img": "./images/nathan_001.jpeg",
-        "description": "Deja aussi rigoleur...",
+        "description": "Déjà aussi rigoleur...",
         "age":0
     },
     {
         "img": "./images/nathan_002.jpeg",
-        "description": "Me voila debout, 1 an et quelques...",
+        "description": "Me voilà debout, 1 an et quelques...",
         "age":1
     },
     {
         "img": "./images/nathan_003.jpeg",
-        "description": "Mon petit frère est la, enfin...",
+        "description": "Mon petit frère est là, enfin...",
         "age":2
     },
     {
         "img": "./images/nathan_005.jpeg",
-        "description": "Maman m'apprends a frimer...",
+        "description": "Maman m'apprends à frimer...",
         "age":3
     },
     {
@@ -46,7 +46,7 @@ const gallery = [
     },
     {
         "img": "./images/nathan_006.jpeg",
-        "description": "Deja sur les jeux videos à presque ans.",
+        "description": "Déjà sur les jeux videos à presque 5 ans.",
         "age":5
     },
     {
@@ -56,17 +56,17 @@ const gallery = [
     },
     {
         "img": "./images/nathan_008.jpeg",
-        "description": "La je n'etais pas content...",
+        "description": "Là je n'étais pas content...",
         "age":7
     },
     {
         "img": "./images/nathan_009.jpeg",
-        "description": "A 8 ans deja aussi haut...",
+        "description": "A 8 ans et déjà aussi haut...",
         "age":8
     },
     {
         "img": "./images/nathan_010.jpeg",
-        "description": "Et voila, 9 ans deja...",
+        "description": "Et voilà, 9 ans déjà...",
         "age":9
     },
 ]
