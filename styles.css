@@ -138,10 +138,15 @@ section{
 }
 #activites li::before {
   content: "->";
-  margin-right: 1rem;
 }
 #contact ul{
   display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+#contact{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -149,8 +154,11 @@ section{
   text-align: center;
   margin-bottom: 1rem;
 }
+#contact li{
+  text-align: center;
+}
 #contact img{
-  width: 50px;
+  width: 50%;
 }
 .hidden {
   display: none;
@@ -183,6 +191,15 @@ section{
     display: flex;
     gap: 1rem;
   }
+    #contact ul {
+      flex-direction: row;
+    }
+    #contact img {
+      width: 100%;
+    }
+    #gallery {
+      gap: 2rem;
+    }
 }
 @media screen and (min-width: 910px) {
   header .nav-links {
