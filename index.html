@@ -17,20 +17,28 @@
         <div class="nav-links hidden">
           <a href="#hero" class="nav-link">Home</a>
           <a href="#about" class="nav-link">A propos</a>
-          <a href="#activites" class="nav-link">Activites</a>
+          <a href="#activites" class="nav-link">Activités</a>
           <a href="#gallery" class="nav-link">Ma galérie photos</a>
           <a href="#contact" class="nav-link">Me Contacter</a>
         </div>
-        <div class="nav-links-mobile">
+        <div class="nav-links-mobile hidden">
           <a href="#hero" class="nav-link-mobile">Home</a>
           <a href="#about" class="nav-link-mobile">A propos</a>
-          <a href="#activites" class="nav-link-mobile">Activites</a>
+          <a href="#activites" class="nav-link-mobile">Activités</a>
           <a href="#gallery" class="nav-link-mobile">Ma galérie photos</a>
           <a href="#contact" class="nav-link-mobile">Me Contacter</a>
         </div>
+        <svg id="mobile-nav-close" class="menu-icon hidden" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+         <svg id="mobile-nav-open" class="menu-icon" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 4.5v15m7.5-7.5h-15" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
       </nav>
     </header>
-    <section id="hero"></section>
+  <section id="hero"></section>
   <div class="container">
     <section id="about">
       <h2>Nathan Montheu</h2>
@@ -71,10 +79,18 @@
       </ul>
     </section>
   </div>    
-    <footer>
-      <h4>Le portfolio de Nathan Montheu</h4> &copy; 
-      <small>WebDevKmer - 2023</small>
-    </footer>
+<footer>
+  <h4>Le portfolio de Nathan Montheu</h4> &copy; 
+  <small>WebDevKmer - 2023</small>
+</footer>
+<div class="arrow">
+  <a href="#hero">
+  <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.5 10.5L12 3m0 0l7.5 7.5M12 3v18" stroke-linecap="round" stroke-linejoin="round"></path>
+  </svg>
+  </a>
+</div>
 
   <script src="main.js"></script>
 </body>

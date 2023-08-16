@@ -1,4 +1,23 @@
-console.log("hello from js");
+const openNavBtn = document.querySelector('#mobile-nav-open')
+const closeNavBtn = document.querySelector('#mobile-nav-close')
+const mobileNavMenu = document.querySelector('.nav-links-mobile')
+
+openNavBtn.addEventListener('click', () => {
+    mobileNavMenu.style.display = 'flex';
+    openNavBtn.classList.toggle('hidden')
+    closeNavBtn.classList.toggle('hidden')
+})
+closeNavBtn.addEventListener('click', () => {
+    mobileNavMenu.style.display = 'none';
+    closeNavBtn.classList.toggle('hidden')
+    openNavBtn.classList.toggle('hidden')
+})
+mobileNavMenu.addEventListener('mouseleave',() => {
+    mobileNavMenu.style.display = 'none';
+    closeNavBtn.classList.toggle('hidden')
+    openNavBtn.classList.toggle('hidden')
+})
+
 const gallery = [
     {
         "img": "./images/nathan_001.jpeg",
@@ -51,5 +70,3 @@ let galleryHTML = gallery.map(elt => {
       </article>`  
 })
 galleryElt.innerHTML = galleryHTML
-
-// console.log(galleryHTML, galleryElt);
